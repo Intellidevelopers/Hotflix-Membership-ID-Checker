@@ -3350,7 +3350,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   justify-content: center;
   align-items: center;
   height: 46px;
-  width: 100%;
+  width: 110%;
   border-radius: 6px;
   background-color: transparent;
   font-size: 14px;
