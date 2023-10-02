@@ -3206,7 +3206,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
   min-height: 60vh;
   padding: 40px 0;
 }
@@ -3220,7 +3220,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   align-items: center;
   padding: 40px 20px;
   position: relative;
-  width: 100%;
+  width: 90%;
   max-width: 400px;
   margin-top: -70%;
   height: 100px;
@@ -3350,7 +3350,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   justify-content: center;
   align-items: center;
   height: 46px;
-  width: 110%;
+  width: 115%;
   border-radius: 6px;
   background-color: transparent;
   font-size: 14px;
@@ -3361,6 +3361,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   margin-bottom: 15px;
   padding: 15px;
   margin-right: -10%;
+  margin-left: 5%;
 }
 .sign__btn:hover {
   color: #fff;
