@@ -92,7 +92,7 @@
           Swal.fire({
             title: 'Enter Your ID',
             input: 'text',
-            inputLabel: 'Enter your membership id here:',
+            inputLabel: 'Enter your membership ID here:',
             showCancelButton: true,
             inputValidator: (value) => {
               if (!value) {
@@ -101,7 +101,7 @@
             }
           }).then((result) => {
             if (result.isConfirmed) {
-              Swal.fire('Result', `Your ID has not been approved: ${result.value}`, 'error');
+              Swal.fire('Result', `Your ID has been approved: ${result.value}`, 'success');
             }
           });
         }
