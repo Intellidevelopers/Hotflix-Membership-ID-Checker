@@ -2579,6 +2579,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   border: 1px solid #222028;
   padding: 20px;
   border-radius: 6px;
+
 }
 .form__title {
   font-size: 18px;
@@ -2603,7 +2604,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   position: relative;
   color: #fff;
   font-size: 16px;
-  width: 100%;
   border-radius: 6px;
   padding: 0 20px;
 }
@@ -3206,13 +3206,12 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 95%;
   min-height: 60vh;
   padding: 40px 0;
 }
 .sign__form {
   background-color: #1a191f;
-  border: 1px solid #222028;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -3220,11 +3219,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   align-items: center;
   padding: 40px 20px;
   position: relative;
-  width: 90%;
+  width: 80%;
   max-width: 400px;
   margin-top: -70%;
   height: 100px;
-  margin-left: -7%;
+  margin-left: -5%;
 }
 .sign__logo {
   display: block;
@@ -3350,7 +3349,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   justify-content: center;
   align-items: center;
   height: 46px;
-  width: 115%;
+  width: 111%;
   border-radius: 6px;
   background-color: transparent;
   font-size: 14px;
@@ -3361,7 +3360,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   margin-bottom: 15px;
   padding: 15px;
   margin-right: -10%;
-  margin-left: 5%;
+  margin-left: 2%;
 }
 .sign__btn:hover {
   color: #fff;
@@ -3371,6 +3370,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   margin-top: 15px;
   font-size: 14px;
   color: #fff;
+  margin-left: 10%;
 }
 .sign__text a {
   position: relative;
@@ -3384,6 +3384,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   font-size: 14px;
   color: #fff;
   line-height: 100%;
+  text-align: center;
+  margin-left: 10%;
 }
 .sign__social {
   display: flex;
